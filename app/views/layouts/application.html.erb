@@ -8,6 +8,9 @@
 
   <link rel='icon' href='<%= image_url "logo.png" %>' type='image/jpg'>
 
+  <!-- harison -->
+  <link rel="stylesheet" media="all" href="/css/style.css">
+  
   <!-- global -->
   <meta name="author" content="<%= @dynamic_author %>" />
 
@@ -40,11 +43,11 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
   
   <%= stylesheet_link_tag    'http://fonts.googleapis.com/css?family=Raleway:200,400,800', media: 'all' %>
   
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' %>
 
 
   <%= csrf_meta_tags %>
